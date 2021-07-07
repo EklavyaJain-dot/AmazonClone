@@ -1,0 +1,200 @@
+body{
+    background-color: gray;
+    overflow-x: hidden;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: blue;    
+}
+
+.header {
+    position: relative;
+    background: black;
+    width: 100%;
+    height: 100px;
+    bottom: 10px;
+    margin-right: 10px;
+  }
+
+  .input{
+    position: relative;
+    bottom: 50px;
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 7px;
+    margin-left: auto;
+}
+
+  .input:focus {
+    outline: none !important;
+    border:1px solid orange;
+    box-shadow: orange;
+}
+
+.search{
+    position: relative;
+    background-color: orange;
+    width: 50px;
+    height: 45px;
+    border-radius: 10px;
+    margin-left: 420px;
+    bottom: 95px;
+}
+
+.search1{
+    position: relative;
+    top: 5px;
+}
+
+.flag{
+    position: relative;
+    width: 10px;
+    height: 45px;
+    border-radius: 10px;
+    margin-left: 500px;
+    bottom: 130px;
+}
+
+.card1{
+    position: relative;
+    margin-left: 50px;
+    width: 350px;
+    height: 370px;
+    background-color: white;
+}
+
+.card2{
+    position: relative;
+    margin-left: 600px;
+    bottom: 390px;
+    width: 350px;
+    height: 370px;
+    background-color: white;
+}
+
+.card3{
+    position: relative;
+   margin-left: 50px;
+    bottom: 70px;
+    width: 350px;
+    height: 370px;
+    background-color: white;
+}
+
+.card4{
+    position: relative;
+   margin-left: 600px;
+    bottom: 440px;
+    width: 350px;
+    height: 370px;
+    background-color: white;
+}
+
+.card5{
+    position: relative;
+    margin-left: 50px;
+    bottom: 400px;
+    width: 350px;
+    height: 370px;
+    background-color: white;
+}
+
+.card6{
+    position: relative;
+    margin-left: 600px;
+    bottom: 770px;
+    width: 350px;
+    height: 370px;
+    background-color: white;
+}
+
+.card7{
+    position: relative;
+   margin-left: 50px;
+    bottom: 720px;
+    width: 350px;
+    height: 370px;
+    background-color: white;
+}
+
+.card8{
+    position: relative;
+   margin-left: 600px;
+    bottom: 1080px;
+    width: 350px;
+    height: 370px;
+    background-color: white;
+}
+
+.Addtocart{
+    position: relative;
+    background-color: rgb(197, 197, 38);
+    color: black;
+    width: 150px;
+    border-radius: 2px;
+    top: 70px;
+    margin-left: 110px;
+}
+
+.Addtocart:focus{
+    background-color: pink;
+}
+
+.Addtocart:hover{
+    transform: scale(1.3);
+}
+
+.tech{
+    color: rgb(0, 255, 64);
+}
+
+.bigcard1{
+    width: 100%;
+    height: 200px;
+    background-color: greenyellow;
+    position: relative;
+    bottom: 1000px;
+}
+
+.bigcard2{
+    width: 100%;
+    height: 200px;
+    background-color: greenyellow;
+    position: relative;
+    bottom: 1000px;
+}
+
+@media(max-width:998px){
+    html{
+        font-size: 55%;
+    }
+}
+
+@media(max-width:768px){
+    html{
+        font-size: 45%;
+    }
+}
+
+.footer{
+    position: relative;
+    bottom: 900px;
+    width: 100%;
+    height: 350px;
+    background-color: black;
+}
+
+.backtotop{
+    background-color: green;
+}
+
+html{
+    scroll-behavior: smooth;
+}
